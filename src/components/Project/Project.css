@@ -1,0 +1,130 @@
+.projects-section {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.projects-section h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.do {
+    color: yellow;
+}
+
+.card,
+.card1 {
+    background-color: rgb(50, 50, 50);
+    padding: 20px;
+    width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+.card p {
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.btn {
+    background-color: #3366ff;
+    color: #fff;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background-color: #264d99;
+}
+
+.resume {
+    background-color: #3366ff;
+    color: #fff;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn1 {
+    color: #fff;
+}
+
+/* ------------- Responsive Styling ------------- */
+
+@media screen and (max-width: 768px) {
+    .projects-section {
+        padding: 1rem;
+    }
+
+    .card,
+    .card1 {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .card h3,
+    .card1 h1 {
+        font-size: 1.2rem;
+    }
+
+    .card p {
+        font-size: 0.9rem;
+    }
+
+    .btn,
+    .resume {
+        font-size: 0.9rem;
+        padding: 8px 14px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .projects-section {
+        width: 100%;
+        padding: 0 1rem;
+        margin: auto;
+    }
+
+    .card,
+    .card1 {
+        width: 100%;
+    }
+
+    .project-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}

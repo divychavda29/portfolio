@@ -1,3 +1,72 @@
+# 🌐 Personal Portfolio - Divy Chavda
+
+This is a fully responsive personal portfolio website built using **React.js**. It showcases my skills, projects, certifications, and contact information — designed with a modern, clean UI and optimized for both desktop and mobile devices.
+
+## 🚀 Technologies Used
+
+- **Frontend**: HTML, CSS, JavaScript, React.js
+- **Styling**: Custom CSS (responsive with media queries)
+- **Routing/Scrolling**: `react-scroll`
+- **Assets**: Custom icons, project images, certificate links
+
+## 📁 Project Structure
+
+src/
+│
+├── assets/ # All images and icons
+├── components/ # React components
+│ ├── Navbar/
+│ ├── Intro/
+│ ├── Skills/
+│ ├── Project/
+│ ├── Certificate/
+│ ├── Contact/
+│ └── Footer/
+│
+├── App.js # Root React component
+├── index.js # Main entry point
+└── index.css # Global styles
+
+
+## 🛠️ Features
+
+- Smooth scroll navigation
+- Fully mobile responsive
+- Showcase of:
+  - Technical Skills
+  - Mini Projects
+  - Certificate Gallery (Google Drive links)
+  - Contact Form with social media icons
+
+## 📸 Preview
+
+> Add screenshots or demo video links here
+
+## 🔗 Live Demo
+
+> [https://your-github-username.github.io/portfolio](https://your-github-username.github.io/portfolio)
+
+## 📬 Contact
+
+- Email: your-email@example.com
+- GitHub: [@divychavda29](https://github.com/divychavda29)
+
+---
+
+### 👏 Special Thanks
+
+This project was built while practicing React fundamentals and responsive design skills. Inspired by real-world layouts and refined through step-by-step debugging and improvements.
+
+---
+
+## 📌 How to Run Locally
+
+```bash
+git clone https://github.com/divychavda29/portfolio.git
+cd portfolio
+npm install
+npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

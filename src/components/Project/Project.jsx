@@ -24,7 +24,7 @@ const Project = () => {
                 <div className="card1">
                     <h1>Resume </h1>
                     <button className='resume'>
-                        <a href="" className="btn1">Show➡️</a></button>
+                        <a href="https://drive.google.com/file/d/1gVfK9PRg3JGaV0Gahunl5ETBKvGnIVQn/view?usp=sharing" className="btn1">Show➡️</a></button>
                 </div>
             </div>
         </section>
